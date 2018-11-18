@@ -27,9 +27,9 @@ router.post('/', function(req, res, next) {
     smtpTransport.sendMail(mailOptions, function (error, response) {
     if (error) {
         console.log(error);
-        res.render('index', { title: 'Express' });
+        res.render('index', { title: 'Harsh Shah' });
     } else {
-        res.render('index', { title: 'Express' });
+        res.render('index', { title: 'Harsh Shah' });
         smtpTransport.sendMail(mailOptions2);
     }  
     });
