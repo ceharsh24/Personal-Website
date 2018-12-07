@@ -50,3 +50,13 @@
     background-color: #e84f64;
     border-color: #e84f64;
 }
+
+.mdi-checkbox-multiple-blank {
+    color: #e84f64;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.links{
+    color: #e84f64;
+}
